@@ -1,7 +1,7 @@
 import axios, { AxiosError, AxiosResponse } from 'ts-axios-new';
 
 const url = {
-  dev: 'http://localhost:3000',
+  dev: 'http://localhost:3000/api',
   production: ''
 };
 

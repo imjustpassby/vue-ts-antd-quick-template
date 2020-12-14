@@ -17,7 +17,7 @@ const TerserPlugin = require('terser-webpack-plugin');
  */
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
-const port = 9001;
+const port = 9111;
 
 /**
  * 普通代理模式

@@ -4,7 +4,7 @@ import request from '@/utils/request.ts';
 
 export function getData(foo: string) {
   request({
-    url: '/api/getData',
+    url: '/getData',
     params: {
       foo
     }
@@ -14,7 +14,7 @@ export function getData(foo: string) {
 export const getBanners = mem(
   function(foo: string) {
     return request({
-      url: '/api/banner',
+      url: '/banner',
       params: {
         foo
       }
@@ -27,7 +27,7 @@ export const getBanners = mem(
 
 export function postData(foo: string) {
   request({
-    url: '/api/postData',
+    url: '/postData',
     method: 'post',
     data: {
       foo

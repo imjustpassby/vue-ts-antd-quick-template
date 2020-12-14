@@ -1,11 +1,11 @@
 # vue-ts-antd-quick-template
 
-a quick start vue-ts-antd template.
+a quick start vue@2.x-ts-antd template.
 
 ## Project setup
 
 ```
-yarn install
+yarn
 ```
 
 ### Compiles and hot-reloads for development

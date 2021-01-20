@@ -17,3 +17,8 @@ declare module 'query-string' {
   const qs: any
   export default qs
 }
+
+declare module 'md5' {
+  const md5: any
+  export default md5
+}
